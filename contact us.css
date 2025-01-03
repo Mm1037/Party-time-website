@@ -1,0 +1,424 @@
+@font-face {
+    font-family: "..";
+    src: url("media/fonts/FrancoisOne-Regular.ttf");
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    margin: 0;
+    font-family: "..";
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    background-color: #fff;
+    width: 100%;
+    border-color: #c7c7c7;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.logo img {
+    max-width: 150px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+    position: relative;
+    right: 20px;
+
+}
+
+nav a:hover {
+    color: rgb(253, 42, 42)
+        /* Change the color on hover as desired */
+}
+
+h1 {
+    position: relative;
+    right: 630px;
+
+
+}
+
+.form {
+    border: 3px solid #000;
+    border-radius: 20px;
+    padding: 100px;
+    max-width: 400px;
+    position: relative;
+    left: -460px;
+    animation: pulse 1s forwards;
+}
+
+label {
+    position: relative;
+    right: 30px;
+}
+
+input {
+    height: 25px;
+    border: #000 2px solid;
+    transition: box-shadow 0.3s ease;
+}
+
+input:focus {
+    box-shadow: 0 0 10px rgba(49, 49, 49, 0.7);
+
+}
+
+.Feedback {
+    position: relative;
+    right: 20px;
+    Overflow: auto;
+    resize: both;
+
+}
+
+button {
+    height: 50px;
+    width: 90px;
+    background-color: #fff;
+    color: #000000;
+    border-radius: 50px;
+    border-width: 2px;
+    cursor: pointer;
+    border-radius: 6px;
+    border-color: #383838;
+    position: relative;
+    font-family: "..";
+    transition: transform 0.3s ease;
+    top: 10px;
+    font-size: 20px;
+    right: 485px;
+    animation: pulse 1s forwards;
+
+
+}
+
+button:hover {
+
+    transform: scale(1.1);
+
+
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.card {
+    height: 12cm;
+    width: 300px;
+    border: solid;
+    border-radius: 30px;
+    position: relative;
+    left: 520px;
+    bottom: 440px;
+    animation: pulse 1s forwards;
+
+}
+
+img {
+    max-width: 290px;
+    border-radius: 50px;
+    position: relative;
+    left: 5px;
+    margin: 0px;
+
+}
+
+#of {
+    position: relative;
+    left: 100px;
+    bottom: 20px;
+    font-size: 30px;
+}
+
+span {
+    color: red;
+}
+
+#mm {
+    position: relative;
+    bottom: 40px;
+    font-size: 40px;
+    left: 15px;
+}
+
+.icons {
+    position: relative;
+    bottom: 90px;
+    margin-bottom: 50px;
+}
+
+.icons img {
+    height: 30px;
+    width: 40px;
+    position: relative;
+    top: -200px;
+    right: 400px;
+    margin: 0px;
+
+}
+
+#mass {
+    transition: transform 0.3s ease;
+
+}
+
+#mass:hover {
+    transform: scale(1.5);
+
+}
+
+
+#insta {
+    transition: transform 0.3s ease;
+
+}
+
+#insta:hover {
+    transform: scale(1.5);
+
+}
+
+#whats {
+    transition: transform 0.3s ease;
+
+}
+
+#whats:hover {
+    transform: scale(1.5);
+
+}
+
+
+.icons p {
+    position: relative;
+    top: -245px;
+    left: 140px;
+}
+
+@media only screen and (max-width: 400px) {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        background-color: #fff;
+        width: 100%;
+        border-color: #c7c7c7;
+        border-style: inset;
+        border-width: 1px;
+    }
+
+    .logo img {
+        max-width: 130px;
+        height: auto;
+        position: relative;
+        top: 5px;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+    }
+
+    nav li {
+        margin-right: 20px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 10px;
+        transition: color 0.3s ease;
+        position: relative;
+        right: 20px;
+
+    }
+
+    nav a:hover {
+        color: rgb(253, 42, 42)
+            /* Change the color on hover as desired */
+    }
+
+    h1 {
+        position: relative;
+        right: 630px;
+
+
+    }
+
+    .form {
+        border: 3px solid #000;
+        border-radius: 20px;
+        padding: 100px;
+        max-width: 200px;
+        position: relative;
+        left: 2%;
+        animation: pulse 1s forwards;
+    }
+
+    label {
+        position: relative;
+        right: 30px;
+    }
+
+    input {
+        height: 25px;
+        border: #000 2px solid;
+        transition: box-shadow 0.3s ease;
+    }
+
+    input:focus {
+        box-shadow: 0 0 10px rgba(49, 49, 49, 0.7);
+
+    }
+
+    .Feedback {
+        position: relative;
+        right: 0px;
+
+
+    }
+
+    button {
+        height: 50px;
+        width: 90px;
+        background-color: #fff;
+        color: #000000;
+        border-radius: 50px;
+        border-width: 2px;
+        cursor: pointer;
+        border-radius: 6px;
+        border-color: #383838;
+        position: relative;
+        font-family: "..";
+        transition: transform 0.3s ease;
+        top: 10px;
+        font-size: 20px;
+        right: 0px;
+        animation: pulse 1s forwards;
+
+
+    }
+
+    button:hover {
+
+        transform: scale(1.1);
+
+
+    }
+
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+        }
+
+        50% {
+            transform: scale(1.1);
+        }
+
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    .card {
+        display: none;
+    }
+
+    .icons {
+        position: relative;
+        bottom: -250px;
+        right: 60px;
+        margin-bottom: 50px;
+    }
+
+    .icons img {
+        height: 30px;
+        width: 40px;
+        position: relative;
+        top: -200px;
+        right: 5px;
+        margin: 0px;
+
+    }
+
+    #mass {
+        transition: transform 0.3s ease;
+
+    }
+
+    #mass:hover {
+        transform: scale(1.5);
+
+    }
+
+
+    #insta {
+        transition: transform 0.3s ease;
+
+    }
+
+    #insta:hover {
+        transform: scale(1.5);
+
+    }
+
+    #whats {
+        transition: transform 0.3s ease;
+
+    }
+
+    #whats:hover {
+        transform: scale(1.5);
+
+    }
+
+
+    .icons p {
+        position: relative;
+        top: -245px;
+        left: 140px;
+    }
+}

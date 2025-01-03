@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>services</title>
+    <link rel="stylesheet" href="services.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="media/images/Screenshot 2023-11-28 075645.png" alt="Company Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="About.html">About</a></li>
+                <li><a href="contact us.html">Contact</a></li>
+                <li><a href="offers.html">Offers</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="services.html">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>services</h1>
+
+    <div class="button-container">
+        <!-- Button to toggle the form -->
+        <!-- <button class="buy-button" onclick="toggleForm()">Buy</button> -->
+
+        <!-- Form -->
+        <div class="buy-form">
+            <form>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="quantity">number:</label>
+                <input type="text" id="quantity" name="quantity" required>
+
+                <button type="submit">Buy now</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript function to toggle the visibility of the form
+        function toggleForm() {
+            var form = document.querySelector('.buy-form');
+            form.style.display = form.style.display === 'none' ? 'block' : 'none';
+        }
+    </script>
+
+    <!-- ... (previous HTML code) ... -->
+
+    <div class="content">
+        <div class="card">
+            <div class="cart1">
+                <img src="media/icons/shopping_cart_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+            </div>
+
+            <div class="card-image">
+                <img src="media/images/Screenshot 2023-11-28 034745.png" alt="service 1">
+            </div>
+            <h2 class="pr1"> Invitations and Printworks
+
+            </h2>
+
+            <div class="info">
+                <p class="price">Price: </p>
+                <p class="pp">$29.99</p>
+                <p class="q">date: <input class="input" type="date"> </p>
+            </div>
+
+            <div class="button-container">
+                <button class="buy-button" onclick="toggleForm()">Buy</button>
+                <button class="more-button">More</button>
+            </div>
+
+            <span class="downarrow"><img src="media/icons/expand_more_FILL0_wght400_GRAD0_opsz24.png" alt=""></span>
+        </div>
+
+
+        <div class="card">
+            <div class="cart1">
+                <img src="media/icons/shopping_cart_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+            </div>
+
+            <div class="card-image">
+                <img src="media/images/Screenshot 2023-11-28 035826.png" alt="service  2">
+            </div>
+            <h2 class="pr">sound and lighting</h2>
+
+            <div class="info">
+                <p class="price">Price: </p>
+                <p class="pp">$29.99</p>
+                <p class="q">date: <input class="input" type="date"> </p>
+            </div>
+            <div class="button-container">
+                <button class="buy-button" onclick="toggleForm()">Buy</button>
+                <button class="more-button">More</button>
+            </div>
+
+            <span class="downarrow"><img src="media/icons/expand_more_FILL0_wght400_GRAD0_opsz24.png" alt=""></span>
+        </div>
+
+        <div class="card">
+            <div class="cart1">
+                <img src="media/icons/shopping_cart_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+            </div>
+
+            <div class="card-image">
+                <div class="card3">
+                    <img src="media/images/Screenshot 2023-11-28 040310.png" alt="service  3">
+                </div>
+            </div>
+            <h2 class="pr">Marquee Parties</h2>
+
+            <div class="info">
+                <p class="price">Price: </p>
+                <p class="pp">$29.99</p>
+                <p class="q">date: <input class="input" type="date"> </p>
+            </div>
+            <div class="button-container">
+                <button class="buy-button" onclick="toggleForm()">Buy</button>
+                <button class="more-button">More</button>
+            </div>
+
+            <span class="downarrow"><img src="media/icons/expand_more_FILL0_wght400_GRAD0_opsz24.png" alt=""></span>
+        </div>
+        <div>
+            <button class="see-more"><img src="media/icons/arrow_forward_FILL0_wght400_GRAD0_opsz24.svg" alt=""
+                    class="arrow"></button>
+            <h3 class="ss">see <div id="mm">more</div>
+            </h3>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="icons">
+            <img src="media/icons/facebook-messenger.svg" alt="" id="mass">
+            <img src="media/icons/instagram.svg" alt="" id="insta">
+            <img src="media/icons/whatsapp.svg" alt="" id="whats">
+            <p>Copyright 2023-2024</p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

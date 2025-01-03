@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>offers</title>
+    <link rel="stylesheet" href="offer.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="media/images/Screenshot 2023-11-28 075645.png" alt="Company Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="About.html">About</a></li>
+                <li><a href="contact us.html">Contact</a></li>
+                <li><a href="offers.html">Offers</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="services.html">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Button to toggle the form -->
+    <!-- <button class="buy-button" onclick="toggleForm()">Buy</button> -->
+
+    <!-- Form -->
+    <div class="buy-form">
+        <form>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="quantity">number:</label>
+            <input type="text" id="quantity" name="quantity" required>
+
+            <button type="submit">Buy now</button>
+        </form>
+    </div>
+    </div>
+
+    <script>
+        // JavaScript function to toggle the visibility of the form
+        function toggleForm() {
+            var form = document.querySelector('.buy-form');
+            form.style.display = form.style.display === 'none' ? 'block' : 'none';
+        }
+    </script>
+
+    <h1>offer</h1>
+
+    <div class="content">
+        <div class="card">
+            <div class="card-image">
+                <img src="media/images/Screenshot 2023-11-28 030914.png" alt="card1">
+            </div>
+            <h2 class="of">offer1</h2>
+
+            <button class="buy-button" onclick="toggleForm()">subscribe</button>
+
+            <div class="button-container">
+                <button class="info-button">info</button>
+            </div>
+
+            <span class="downarrow"><img src="media/icons/expand_more_FILL0_wght400_GRAD0_opsz24.png" alt=""></span>
+        </div>
+
+
+
+
+
+        <div class="card">
+            <div class="card-image">
+                <img src="media/images/Screenshot 2023-11-28 030708.png" alt="card2">
+            </div>
+            <h2 class="of">offer2</h2>
+
+            <button class="buy-button" onclick="toggleForm()">subscribe</button>
+            <div class="button-container">
+                <button class="info-button">info</button>
+            </div>
+
+            <span class="downarrow"><img src="media/icons/expand_more_FILL0_wght400_GRAD0_opsz24.png" alt=""></span>
+        </div>
+
+
+        <div class="card">
+            <div class="card-image">
+                <img src="media/images/Screenshot 2023-11-28 030957.png" alt="card3">
+            </div>
+            <h2 class="of">offer3</h2>
+
+            <button class="buy-button" onclick="toggleForm()">subscribe</button>
+
+            <div class="button-container">
+                <button class="info-button">info</button>
+            </div>
+
+            <span class="downarrow"><img src="media/icons/expand_more_FILL0_wght400_GRAD0_opsz24.png" alt=""></span>
+        </div>
+
+
+
+
+
+
+        <div class="card">
+            <div class="card-image">
+                <img src="media/images/Screenshot 2023-12-18 025442.png" alt="card4">
+            </div>
+            <h2 class="of">offer4</h2>
+
+            <button class="buy-button" onclick="toggleForm()">subscribe</button>
+
+            <div class="button-container">
+                <button class="info-button">info</button>
+            </div>
+
+            <span class="downarrow"><img src="media/icons/expand_more_FILL0_wght400_GRAD0_opsz24.png" alt=""></span>
+        </div>
+
+
+    </div>
+
+    <footer>
+        <div class="icons">
+            <img src="media/icons/facebook-messenger.svg" alt="" id="mass">
+            <img src="media/icons/instagram.svg" alt="" id="insta">
+            <img src="media/icons/whatsapp.svg" alt="" id="whats">
+            <p>Copyright 2023-2024</p>
+        </div>
+    </footer>
+</body>
+
+</html>

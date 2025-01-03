@@ -1,0 +1,837 @@
+@font-face {
+    font-family: "..";
+    src: url("media/fonts/FrancoisOne-Regular.ttf");
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    margin: 0;
+    font-family: "..";
+
+
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    background-color: #fff;
+    width: 100%;
+    border-color: #c7c7c7;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.logo img {
+    max-width: 150px;
+    height: auto;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+    position: relative;
+    right: 20px;
+
+}
+
+nav a:hover {
+    color: rgb(253, 42, 42)
+        /* Change the color on hover as desired */
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    position: relative;
+    bottom: 100px;
+    left: 35px;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.card {
+    display: inline-block;
+    width: 200px;
+    height: 370px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-color: #383838;
+    border-width: 1px;
+    animation: pulse 1s forwards;
+
+
+}
+
+
+.price {
+    position: relative;
+    bottom: -40px;
+    left: 15px;
+    font-size: 20px;
+}
+
+
+.pp {
+    position: relative;
+    right: -150px;
+}
+
+.q {
+    position: relative;
+    left: 15px;
+    font-size: 20px;
+}
+
+
+
+.input {
+    width: 70px;
+    border-radius: 20px;
+    position: relative;
+    right: -70px;
+    bottom: -3px;
+    font-family: "..";
+    transition: box-shadow 0.3s ease;
+}
+
+.input:focus {
+    box-shadow: 0 0 10px rgba(49, 49, 49, 0.7);
+}
+
+
+h1 {
+    position: relative;
+    left: -640px;
+    font-size: 50px;
+}
+
+.card-image {
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+    position: relative;
+    bottom: 20px;
+
+}
+
+
+img {
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+    margin-bottom: 8px;
+}
+
+
+
+.cart1 img {
+    height: 30px;
+    width: 20px;
+    position: relative;
+    left: 122px;
+    bottom: 10px;
+    margin: -10px;
+}
+
+.cart1 {
+    transition: transform 0.3s ease;
+
+}
+
+
+.cart1:hover {
+    transform: scale(1.1);
+}
+
+.card-image:hover {
+    transform: scale(1.1);
+}
+
+
+.pr {
+    position: relative;
+    right: -1px;
+    bottom: 80px;
+}
+
+.pr1 {
+    position: relative;
+    right: -1px;
+    bottom: 75px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+
+h2 {
+    margin-bottom: -90px;
+}
+
+
+p {
+    color: #000000;
+    text-align: left;
+}
+
+
+
+.card-buttons {
+    margin-top: 20px;
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    position: relative;
+    bottom: 50px;
+}
+
+
+.buy-button {
+    height: 30px;
+    width: 60px;
+    background-color: #fff;
+    color: #000000;
+    border-radius: 50px;
+    border-width: 2px;
+    cursor: pointer;
+    border-radius: 6px;
+    border-color: #383838;
+    position: relative;
+    right: -45px;
+    bottom: -2px;
+    font-family: "..";
+    transition: transform 0.3s ease;
+
+}
+
+.buy-button:hover {
+    transform: scale(1.1);
+
+}
+
+.more-button {
+    background-color: #fff;
+    color: #000000;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    left: px;
+    border-style: none;
+    top: 2px;
+    font-family: "..";
+    transition: transform 0.3s ease;
+}
+
+.more-button:hover {
+    transform: scale(1.1);
+}
+
+.downarrow img {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+    left: 76px;
+    bottom: 65px;
+    font-family: "..";
+}
+
+.info {
+    position: relative;
+    bottom: 10px;
+}
+
+.buy-button4:hover {
+    transform: scale(1.1);
+
+}
+
+.more-button4 {
+    background-color: #fff;
+    color: #000000;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    left: 2px;
+    border-style: none;
+    bottom: 44px;
+    font-family: "..";
+    transition: transform 0.3s ease;
+
+}
+
+
+.see-more {
+    display: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: #fff;
+    border-width: 1px;
+    transition: transform 0.3s ease;
+}
+
+.see-more:hover {
+    transform: scale(1.1);
+}
+
+.arrow {
+    width: 20px;
+    height: 40px;
+    position: relative;
+    top: 6px;
+}
+
+.ss {
+    position: relative;
+    top: -20px;
+    left: 17px;
+    font-size: 22px;
+    display: none;
+}
+
+#mm {
+    position: relative;
+    right: 6px;
+    bottom: 15px;
+    display: none;
+}
+
+.icons {
+    position: relative;
+    bottom: 150px;
+    right: 20px;
+}
+
+.icons img {
+    height: 30px;
+    position: relative;
+    top: 150px;
+    right: 45px;
+    margin: -80px;
+
+}
+
+#mass {
+    transition: transform 0.3s ease;
+
+}
+
+#mass:hover {
+    transform: scale(1.5);
+
+}
+
+
+#insta {
+    transition: transform 0.3s ease;
+
+}
+
+#insta:hover {
+    transform: scale(1.5);
+
+}
+
+#whats {
+    transition: transform 0.3s ease;
+
+}
+
+#whats:hover {
+    transform: scale(1.5);
+
+}
+
+
+.icons p {
+    position: relative;
+    top: 185px;
+    left: 100px;
+}
+
+.buy-form {
+    display: none;
+ }
+ 
+ .buy-form {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+ }
+ 
+ .buy-form label {
+    display: block;
+    margin-bottom: 10px;
+ }
+ 
+ .buy-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+ }
+ 
+ .buy-form button {
+    height: 40px;
+    width: 80px;
+    background-color: #fff;
+    color: #000000;
+    border-width: 2px;
+    cursor: pointer;
+    border-radius: 6px;
+    border-color: #383838;
+    font-family: "..";
+    transition: transform 0.3s ease;
+ }
+ 
+ .button:hover {
+    transform: scale(1.1);
+ 
+ }
+
+@media only screen and (max-width: 400px) {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        background-color: #fff;
+        color: #fff;
+        /* width: 100; */
+        border-color: #c7c5c5;
+        border-style: inset;
+        border-width: 1px;
+
+
+    }
+
+    .logo img {
+        max-width: 150px;
+        height: auto;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 10px;
+        margin: 5px;
+        display: flex;
+        font-size: 10px;
+    }
+
+    nav li {
+        margin-right: 10px;
+        position: relative;
+        left: 30px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #000000;
+        font-weight: bold;
+        font-size: 16px;
+        position: relative;
+        right: 20px;
+        transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+        color: rgb(253, 42, 42)
+    }
+
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: 11px; */
+        position: relative;
+        bottom: 100px;
+        right: 50px;
+    }
+
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+        }
+
+        50% {
+            transform: scale(1.1);
+        }
+
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    .card {
+        display: inline-block;
+        width: 200px;
+        height: 370px;
+        border: 1px solid #ddd;
+        border-radius: 20px;
+        margin: 20px;
+        padding: 10px;
+        text-align: center;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-color: #383838;
+        border-width: 1px;
+        animation: pulse 1s forwards;
+
+
+    }
+
+
+    .price {
+        position: relative;
+        bottom: -40px;
+        left: 15px;
+        font-size: 20px;
+    }
+
+
+    .pp {
+        position: relative;
+        right: -150px;
+    }
+
+    .q {
+        position: relative;
+        left: 15px;
+        font-size: 20px;
+    }
+
+
+
+    .input {
+        width: 70px;
+        border-radius: 20px;
+        position: relative;
+        right: -70px;
+        bottom: -3px;
+        font-family: "..";
+        transition: box-shadow 0.3s ease;
+    }
+
+    .input:focus {
+        box-shadow: 0 0 10px rgba(49, 49, 49, 0.7);
+    }
+
+
+    h1 {
+        position: relative;
+        left: -640px;
+        font-size: 50px;
+    }
+
+    .card-image {
+        height: 200px;
+        overflow: hidden;
+        margin-bottom: 30px;
+        transition: transform 0.3s ease;
+        position: relative;
+        bottom: 20px;
+
+    }
+
+
+    img {
+        width: 200px;
+        height: 150px;
+        border-radius: 20px;
+        margin-bottom: 8px;
+    }
+
+
+
+    .cart1 img {
+        height: 30px;
+        width: 20px;
+        position: relative;
+        left: 122px;
+        bottom: 10px;
+        margin: -10px;
+    }
+
+    .cart1 {
+        transition: transform 0.3s ease;
+
+    }
+
+
+    .cart1:hover {
+        transform: scale(1.1);
+    }
+
+    .card-image:hover {
+        transform: scale(1.1);
+    }
+
+
+    .pr {
+        position: relative;
+        right: -1px;
+        bottom: 80px;
+    }
+
+    .pr1 {
+        position: relative;
+        right: -1px;
+        bottom: 75px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+
+
+
+    h2 {
+        margin-bottom: -90px;
+    }
+
+
+    p {
+        color: #000000;
+        text-align: left;
+    }
+
+
+
+    .card-buttons {
+        margin-top: 20px;
+    }
+
+
+    .button-container {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 100px;
+        position: relative;
+        bottom: 45px;
+    }
+
+
+    .buy-button {
+        height: 30px;
+        width: 60px;
+        background-color: #fff;
+        color: #000000;
+        border-radius: 50px;
+        border-width: 2px;
+        cursor: pointer;
+        border-radius: 6px;
+        border-color: #383838;
+        position: relative;
+        right: -45px;
+        bottom: -2px;
+        font-family: "..";
+        transition: transform 0.3s ease;
+
+    }
+
+    .buy-button:hover {
+        transform: scale(1.1);
+
+    }
+
+    .more-button {
+        background-color: #fff;
+        color: #000000;
+        border-radius: 50px;
+        cursor: pointer;
+        position: relative;
+        left: px;
+        border-style: none;
+        top: 2px;
+        font-family: "..";
+        transition: transform 0.3s ease;
+    }
+
+    .more-button:hover {
+        transform: scale(1.1);
+    }
+
+    .downarrow img {
+        height: 20px;
+        width: 20px;
+        cursor: pointer;
+        user-select: none;
+        position: relative;
+        left: 76px;
+        bottom: 65px;
+        font-family: "..";
+    }
+
+    .info {
+        position: relative;
+        bottom: 10px;
+    }
+
+    .buy-button4:hover {
+        transform: scale(1.1);
+
+    }
+
+    .more-button4 {
+        background-color: #fff;
+        color: #000000;
+        border-radius: 50px;
+        cursor: pointer;
+        position: relative;
+        left: 2px;
+        border-style: none;
+        bottom: 44px;
+        font-family: "..";
+        transition: transform 0.3s ease;
+
+    }
+
+
+    .see-more {
+        display: none;
+        width: 60px;
+        height: 60px;
+        border-radius: 50px;
+        background-color: #fff;
+        border-width: 1px;
+        transition: transform 0.3s ease;
+    }
+
+    .see-more:hover {
+        transform: scale(1.1);
+    }
+
+    .arrow {
+        width: 20px;
+        height: 40px;
+        position: relative;
+        top: 6px;
+    }
+
+    .ss {
+        position: relative;
+        top: -20px;
+        left: 17px;
+        font-size: 22px;
+        display: none;
+    }
+
+    #mm {
+        position: relative;
+        right: 6px;
+        bottom: 15px;
+        display: none;
+    }
+
+    .icons {
+        position: relative;
+        bottom: 150px;
+        right: 10px;
+    }
+
+    .icons img {
+        height: 30px;
+        position: relative;
+        top: 150px;
+        right: 10px;
+        margin: -85px;
+
+    }
+
+    #mass {
+        transition: transform 0.3s ease;
+
+    }
+
+    #mass:hover {
+        transform: scale(1.5);
+
+    }
+
+
+    #insta {
+        transition: transform 0.3s ease;
+
+    }
+
+    #insta:hover {
+        transform: scale(1.5);
+
+    }
+
+    #whats {
+        transition: transform 0.3s ease;
+
+    }
+
+    #whats:hover {
+        transform: scale(1.5);
+
+    }
+
+
+    .icons p {
+        position: relative;
+        top: 185px;
+        left: 100px;
+    }
+
+}
